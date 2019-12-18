@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+
+
+/* Page 1 */
+
+
+/* Background Image */
+
+#startup-bg {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    height: 80vh;
+    filter: grayscale(40%);
+}
+
+div#headerTxt {
+    display: inline-block;
+    height: 80vh;
+    width: 100%;
+}
+
+div#headerTxt #p1 {
+    /* Position */
+    margin: 30vh 0 0 50%;
+    transform: translateX(-50%);
+    /* Design */
+    color: #fff;
+    font-weight: 700;
+    font-size: 5vh;
+    text-align: center;
+}
+
+div#headerTxt #p2 {
+    /* Position */
+    margin: 4vh 0 0 50%;
+    transform: translateX(-50%);
+    /* Design */
+    color: #fff;
+    font-weight: 300;
+    font-size: 3vh;
+    width: 550px;
+    text-align: center;
+}
+
+div #btn1 {
+    /* Position */
+    margin: 3vh 0 0 50%;
+    transform: translateX(-50%);
+    /* Design */
+    padding: 15px;
+    color: #fff;
+    background: #6f69d3;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    outline: none;
+    transition: .7s;
+}
+
+div #btn1:hover {
+    color: #6f69d3;
+    background: #fff;
+}
+
+
+/* ////////////////// */
+
+/* Page 2 */
+
+div#campus {
+    margin-top: 5%;
+    height: 80vh;
+    width: 100%;
+    background: #fff;
+}
+
+div#campus #title {
+    display: block;
+    text-indent: 24%;
+}
+
+div .text {
+    color: #000;
+    font-weight: 700;
+    font-size: 3.5vh;
+}
+
+
+/* L'image */
+
+div img {
+    margin-top: 2.5vh;
+    margin-left: 2.5vh;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 5px;
+    background: gray;
+}
+
+
+/* ----- */
+
+div#box {
+    display: flex;
+    margin: 2.5% auto;
+}
+
+/* Element Shanghai */
+
+div#shanghai {
+    display: flex;
+    margin-left: 25%;
+    width: 24%;
+    height: 25vh;
+    background: #fff;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+div#shanghai p {
+    margin: 10vh 0 0 2.5vh;
+}
+
+/* Element Paris */
+
+div#paris {
+    display: flex;
+    margin-left: 2%;
+    width: 24%;
+    height: 25vh;
+    background: #fff;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+div#paris p {
+    margin: 10vh 0 0 2.5vh;
+}
+
+
+/* ----- */
+
+
+/* Element Rio */
+
+div#rio {
+    display: flex;
+    margin-left: 25%;
+    width: 50%;
+    height: 25vh;
+    background: #fff;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+div#rio p {
+    margin: 10vh 0 0 2.5vh;
+}
+
+/* ////////////////// */
+
+
+/*responsive design*/
+
+
+@media screen and (max-width: 1024px) {
+    #startup-bg{
+        height:50vh;
+    }
+    div#headerTxt #p1{
+    margin-top: 2%;
+    }
+
+    div #btn1 {
+        font-size: 30px;
+        margin-top: 10vh;
+    }
+    div#headerTxt{
+        height:50vh;
+    }
+    div#headerTxt #p1 {
+        margin-top: 4vh;
+        font-size: 60px;
+    }
+
+    div#box {
+        display: block;
+    }
+
+    div#shanghai {
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom: 2%;
+    }
+
+    div#paris {
+        width: 70%;
+        margin-left: 15%;
+
+    }
+
+    div#rio {
+        width: 70%;
+        margin-left: 15%;
+    }
+    div#campus{
+margin-bottom: 10%;
+    }
+    div#shanghai p{
+        margin-left: 13%;
+    }
+    div#paris p{
+                margin-left: 13%;
+    }
+    div#rio p{
+                margin-left: 13%;
+    }
+}
+
+@media screen and (max-width: 375px){
+       div#shanghai p{
+        margin-left: 5%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
